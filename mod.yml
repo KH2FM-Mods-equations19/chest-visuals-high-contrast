@@ -1,0 +1,67 @@
+title: Chest Visuals (High Contrast) (1.0.0)
+originalAuthor: Televo/Dee-Ayy
+description: Makes chest types more distinguishable when using Chest Visuals Match Contents. Place ABOVE your randomizer seed. Original chest visuals by Televo and Dee-Ayy.
+assets:
+  - name: remastered/obj/F_EX030_ABL.mdlx/-0.dds
+    multi:
+      - name: remastered/obj/F_EX050_ABL.mdlx/-0.dds
+    platform: pc
+    method: copy
+    source:
+      - name: chests/ability.dds
+  - name: remastered/obj/F_EX030_FRM.mdlx/-0.dds
+    multi:
+      - name: remastered/obj/F_EX050_FRM.mdlx/-0.dds
+    platform: pc
+    method: copy
+    source:
+      - name: chests/form.dds
+  - name: remastered/obj/F_EX030_MAG.mdlx/-0.dds
+    multi:
+      - name: remastered/obj/F_EX050_MAG.mdlx/-0.dds
+    platform: pc
+    method: copy
+    source:
+      - name: chests/magic.dds
+  - name: remastered/obj/F_EX030_PAG.mdlx/-0.dds
+    multi:
+      - name: remastered/obj/F_EX050_PAG.mdlx/-0.dds
+    platform: pc
+    method: copy
+    source:
+      - name: chests/torn-page.dds
+  - name: remastered/obj/F_EX030_REP.mdlx/-0.dds
+    multi:
+      - name: remastered/obj/F_EX050_REP.mdlx/-0.dds
+    platform: pc
+    method: copy
+    source:
+      - name: chests/ansem-report.dds
+  - name: remastered/obj/F_EX030_STA.mdlx/-0.dds
+    multi:
+      - name: remastered/obj/F_EX050_STA.mdlx/-0.dds
+    platform: pc
+    method: copy
+    source:
+      - name: chests/stat.dds
+  - name: remastered/obj/F_EX030_SMN.mdlx/-0.dds
+    multi:
+      - name: remastered/obj/F_EX050_SMN.mdlx/-0.dds
+    platform: pc
+    method: copy
+    source:
+      - name: chests/summon.dds
+  - name: remastered/obj/F_EX030_VST.mdlx/-0.dds
+    multi:
+      - name: remastered/obj/F_EX050_VST.mdlx/-0.dds
+    platform: pc
+    method: copy
+    source:
+      - name: chests/unlock.dds
+  - name: remastered/obj/F_EX030_WEP.mdlx/-0.dds
+    multi:
+      - name: remastered/obj/F_EX050_WEP.mdlx/-0.dds
+    platform: pc
+    method: copy
+    source:
+      - name: chests/weapon.dds
