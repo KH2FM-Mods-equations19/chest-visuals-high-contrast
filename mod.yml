@@ -1,4 +1,4 @@
-title: Chest Visuals (High Contrast) (1.0.1)
+title: Chest Visuals (High Contrast) (1.0.2)
 originalAuthor: Televo/Dee-Ayy
 description: Makes chest types more distinguishable when using Chest Visuals Match Contents. Place ABOVE your randomizer seed. Original chest visuals by Televo and Dee-Ayy.
 assets:
@@ -65,3 +65,10 @@ assets:
     method: copy
     source:
       - name: chests/weapon.dds
+  - name: remastered/obj/F_EX030_JNK.mdlx/-0.dds
+    multi:
+    - name: remastered/obj/F_EX050_JNK.mdlx/-0.dds
+    platform: pc
+    method: copy
+    source:
+    - name: chests/other.dds

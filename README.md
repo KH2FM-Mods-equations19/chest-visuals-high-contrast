@@ -8,3 +8,18 @@ the randomizer seed.
 ![Preview](preview.png)
 
 Original chest visual images by Televo and Dee-Ayy.
+
+# Changelog
+
+## 1.0.2
+
+- Make the colors slightly brighter to help be more visible in darker areas such as the Underworld
+- Add slightly more contrast between the magic/weapon chest colors and the ability/form chest colors
+
+## 1.0.1
+
+- Add even more contrast
+
+## 1.0.0
+
+- Initial public release
