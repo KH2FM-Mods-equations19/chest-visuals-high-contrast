@@ -1,4 +1,4 @@
-title: Chest Visuals (High Contrast) (1.0.2)
+title: Chest Visuals (High Contrast) (2.0.0)
 originalAuthor: Televo/Dee-Ayy
 description: Makes chest types more distinguishable when using Chest Visuals Match Contents. Place ABOVE your randomizer seed. Original chest visuals by Televo and Dee-Ayy.
 assets:
@@ -9,6 +9,13 @@ assets:
     method: copy
     source:
       - name: chests/ability.dds
+  - name: remastered/obj/F_EX030_EQP.mdlx/-0.dds
+    multi:
+      - name: remastered/obj/F_EX050_EQP.mdlx/-0.dds
+    platform: pc
+    method: copy
+    source:
+      - name: chests/equipment.dds
   - name: remastered/obj/F_EX030_FRM.mdlx/-0.dds
     multi:
       - name: remastered/obj/F_EX050_FRM.mdlx/-0.dds
@@ -65,9 +72,20 @@ assets:
     method: copy
     source:
       - name: chests/weapon.dds
+  # Give "junk" chests the normal model size back (just use Timeless River one) rather than the harder-to-see small one
+  - name: obj/F_EX030_JK2.mdlx
+    multi:
+    - name: obj/F_EX050_JK2.mdlx
+    platform: pc
+    method: copy
+    source:
+    - name: obj/F_EX030_WI.mdlx
+      type: internal
   - name: remastered/obj/F_EX030_JNK.mdlx/-0.dds
     multi:
     - name: remastered/obj/F_EX050_JNK.mdlx/-0.dds
+    - name: remastered/obj/F_EX030_JK2.mdlx/-0.dds
+    - name: remastered/obj/F_EX050_JK2.mdlx/-0.dds
     platform: pc
     method: copy
     source:

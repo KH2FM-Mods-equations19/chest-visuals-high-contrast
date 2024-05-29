@@ -7,9 +7,17 @@ the randomizer seed.
 
 ![Preview](preview.png)
 
-Original chest visual images by Televo and Dee-Ayy.
+Original chest visual images by [Televo](https://github.com/Televo/) and [Dee-Ayy](https://github.com/Dee-Ayy).
 
 # Changelog
+
+## 2.0.0
+
+- Add a high contrast version of the new equipment chest planned for 3.1 of the seed generator
+- Add large symbols to the chests to further aid in distinguishing
+- Readjust some colors to accommodate the equipment chest
+- Ensure the "junk" chests use their normal model size for visibility, rather than the smaller chest
+  model which is harder to see from afar
 
 ## 1.0.2
 
