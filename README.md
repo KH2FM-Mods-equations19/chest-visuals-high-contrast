@@ -11,6 +11,10 @@ Original chest visual images by [Televo](https://github.com/Televo/) and [Dee-Ay
 
 # Changelog
 
+## 2.1.0
+
+- Update texture sizes for the 1.0.0.9 game update
+
 ## 2.0.0
 
 - Add a high contrast version of the new equipment chest planned for 3.1 of the seed generator
