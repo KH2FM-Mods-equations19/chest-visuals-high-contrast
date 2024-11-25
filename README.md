@@ -11,6 +11,10 @@ Original chest visual images by [Televo](https://github.com/Televo/) and [Dee-Ay
 
 # Changelog
 
+## 2.1.1
+
+- Add a custom visual for the "other" chest
+
 ## 2.1.0
 
 - Update texture sizes for the 1.0.0.9 game update

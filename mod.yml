@@ -1,4 +1,4 @@
-title: Chest Visuals (High Contrast) (2.1.0)
+title: Chest Visuals (High Contrast) (2.1.1)
 originalAuthor: Televo/Dee-Ayy
 description: Makes chest types more distinguishable when using Chest Visuals Match Contents. Place ABOVE your randomizer seed. Original chest visuals by Televo and Dee-Ayy.
 assets:
@@ -11,7 +11,6 @@ assets:
     source:
     - name: obj/F_EX030_WI.mdlx
       type: internal
-  # The "junk" chests just use the vanilla Timeless River texture - it has enough contrast
   - name: remastered/obj/F_EX030_JNK.mdlx/-0.dds
     multi:
     - name: remastered/obj/F_EX050_JNK.mdlx/-0.dds
@@ -20,8 +19,7 @@ assets:
     platform: pc
     method: copy
     source:
-    - name: remastered/obj/F_EX030_WI.mdlx/-0.dds
-      type: internal
+      - name: chests/other.dds
   - name: remastered/obj/F_EX030_ABL.mdlx/-0.dds
     multi:
       - name: remastered/obj/F_EX050_ABL.mdlx/-0.dds
